@@ -1,9 +1,13 @@
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
+
+
 
 header {
   background-color: #333;
@@ -40,4 +44,7 @@ ul {
 
 li {
   margin-bottom: 10px;
+  font-family: 'Genos', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
