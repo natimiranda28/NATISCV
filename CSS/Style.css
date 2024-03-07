@@ -1,17 +1,13 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Playfair Display', serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
 }
-
-
 
 header {
   background-color: #333;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 1em;
 }
@@ -25,9 +21,14 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 h1 {
   color: #e9e5e5;
 }
+
 h2 {
   color: #0e0101;
 }
@@ -44,7 +45,13 @@ ul {
 
 li {
   margin-bottom: 10px;
-  font-family: 'Genos', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
