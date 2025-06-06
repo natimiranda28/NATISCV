@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
   <title>Maria Natalia Miranda - Portfolio</title>
-  <link rel="stylesheet" href="../CSS/style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #d2ecf9, #e1f3f8);
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #24c4bb;
+    }
+
+    .btn-cv {
+      margin: 0.5rem;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #24c4bb;
+      color: white;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .tags span {
+      display: inline-block;
+      background-color: #e0f7fa;
+      color: #00796b;
+      padding: 0.4rem 0.7rem;
+      border-radius: 0.5rem;
+      margin: 0.3rem;
+      font-size: 0.85rem;
+    }
+
+    section {
+      margin-top: 2rem;
+    }
+
+    ul {
+      padding-left: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
-    <header>
+    <header class="text-center">
       <h1>Maria Natalia Miranda</h1>
       <h2>Desarrolladora Full Stack & Programadora ABAP</h2>
       <a href="../media/CV OFICIAL COMPLETO.pdf" class="btn-cv" download>📄 Descargar CV</a>
       <a href="../media/CV EN INGLES COMPLETO.pdf" class="btn-cv" download>📄 Download CV (EN)</a>
     </header>
 
-    <section class="sobre-mi">
+    <section>
       <h3>💡 Sobre Mí</h3>
       <p>
         Soy una programadora apasionada con formación como Full Stack Developer y experiencia en SAP ABAP.
-        Combino creatividad y lógica para resolver problemas y crear soluciones útiles. Me especializo en backend, 
-        pero también disfruto construir interfaces intuitivas. Actualmente busco integrarme a un equipo donde pueda 
+        Combino creatividad y lógica para resolver problemas y crear soluciones útiles. Me especializo en backend,
+        pero también disfruto construir interfaces intuitivas. Actualmente busco integrarme a un equipo donde pueda
         aportar, crecer y seguir aprendiendo.
       </p>
     </section>
 
-    <section class="proyectos">
+    <section>
       <h3>🚀 Proyectos Destacados</h3>
       <ul>
-        <li><a href="https://crescendollow.github.io/AdopcionesPulgarcito//" target="_blank" rel="noopener noreferrer">Adopciones Pulgarcito</a> — Plataforma en HTML, CSS y JS para incentivar la adopcion de animales en situacion de calle.</li>
+        <li><a href="https://crescendollow.github.io/AdopcionesPulgarcito/" target="_blank" rel="noopener noreferrer">Adopciones Pulgarcito</a> — Plataforma en HTML, CSS y JS para incentivar la adopción de animales en situación de calle.</li>
         <li><a href="https://amanecereshotelsalta.netlify.app/" target="_blank" rel="noopener noreferrer">Amaneceres Hotel</a> — Sitio institucional responsive y veloz, centrado en UX.</li>
       </ul>
     </section>
 
-    <section class="habilidades">
+    <section>
       <h3>🛠 Habilidades Técnicas</h3>
       <div class="tags">
         <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
@@ -43,7 +101,7 @@
       </div>
     </section>
 
-    <section class="estudios">
+    <section>
       <h3>📚 Estudios y Certificaciones</h3>
       <ul>
         <li>Técnico Universitario en Programación, UNSa (en curso)</li>
@@ -55,7 +113,7 @@
       </ul>
     </section>
 
-    <section class="contacto">
+    <section>
       <h3>📫 Contacto</h3>
       <p>Email: <a href="mailto:natumiranda.28@gmail.com">natumiranda.28@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/natimiranda28" target="_blank">natimiranda28</a></p>
@@ -63,5 +121,9 @@
       <p>LinkedIn: <a href="https://www.linkedin.com/in/maria-natalia-miranda-624452357/" target="_blank">Maria Natalia Miranda</a></p>
     </section>
   </div>
+
+  <!-- Bootstrap JS (opcional para funcionalidades como modales, dropdowns, etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
